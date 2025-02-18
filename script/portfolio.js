@@ -314,12 +314,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function openProject(project) {
         openedProjectContainer.innerHTML = "";
 
-        const IMAGES_PATH = `./Portfolio/images/projects/${project.explorer_name}`;
+        const IMAGES_PATH = `./images/projects/${project.explorer_name}`;
         const BANNER_PATH = `${IMAGES_PATH}/banner/image.png`;
         const SECTIONS_IMAGES_SUBPATH = `${IMAGES_PATH}/section_images`;
-        const USED_SOFTWARE_SUBPATH = `./Portfolio/images/projects/software-logos`
+        const USED_SOFTWARE_SUBPATH = `./images/projects/software-logos`
         let FINAL_IMAGE_PATH;
-
+ 
         if (project.finalImageLanguageVariants) {
             FINAL_IMAGE_PATH = `${IMAGES_PATH}/final-image/${selectedLanguage}/image.png`;
         }
