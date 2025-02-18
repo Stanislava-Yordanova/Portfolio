@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,125,700;1,125,700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="./style/index/index.css">
+    <link rel="stylesheet" href="./style/index/gallery.css">
+    
+    <script src="./script/main.js"></script>
+    <script src="./script/index.js"></script>
+    <script src="./script/indexProjectsEng.js"></script>
+    <script src="./script/indexGallery.js"></script>
+</head>
+<body>
+    <input hidden type="checkbox" id="main-menu-input">
+    <section id="main-menu">
+        <a href="./index_eng.html" class="advent-pro-700">Home</a>
+        <a href="./portfolio_eng.html" class="advent-pro-700">Portfolio</a>
+        <a href="./cv_eng.pdf" target="_blank" class="advent-pro-700">CV</a>
+
+        <label class="advent-pro-700" for="main-menu-input" onclick="location.href = '#footer'">Contacts</label>
+    </section>
+    <div id="borders">  
+        <div id="header-menu-and-logo">
+            <div>
+                <a href="./index_eng.html"><svg id="header-logo" class="logo" alt="Logo" style="fill: #fff" xmlns="http://www.w3.org/2000/svg" width="65" height="75" viewBox="0 0 65 75"><path d="M64.9787 33.2459V63.5087C65.0694 64.9323 64.8709 66.3594 64.3954 67.7042C63.9199 69.049 63.1771 70.2837 62.2118 71.3339C59.6519 73.4698 56.4238 74.6402 53.0897 74.6411L51.0146 69.1722C51.952 69.1059 52.8796 68.9392 53.7815 68.675C54.5673 68.4529 55.3018 68.0783 55.9431 67.5726C56.5801 67.0849 57.0854 66.4459 57.413 65.7136C57.8052 64.8304 57.99 63.8692 57.9534 62.9035V57.802C56.8738 58.4784 55.7207 59.0296 54.5164 59.4449C53.3106 59.9117 52.0666 60.2733 50.7984 60.5257C49.4525 60.7183 48.0942 60.8122 46.7345 60.8067C45.3661 60.8123 43.9995 60.7038 42.6491 60.4825C41.0493 60.2462 39.487 59.803 38.0016 59.1639C37.2528 58.8377 36.5302 58.4547 35.8399 58.0182C34.3848 57.1216 33.1213 55.9462 32.1219 54.5596C31.429 53.6028 30.9028 52.5358 30.5655 51.4036C30.1675 50.1157 29.9706 48.7741 29.9819 47.4262V45.2646C30.326 45.2011 30.6654 45.1145 30.9979 45.0052C32.1224 44.6687 33.1873 44.1581 34.1539 43.492C35.0074 42.918 35.7415 42.1839 36.3155 41.3304C36.645 40.8166 36.8725 40.2442 36.9856 39.6443V46.6264C36.9427 48.1537 37.3566 49.6591 38.1745 50.9497C39.0797 52.2194 40.3674 53.1663 41.8493 53.6517C42.5537 53.9017 43.2764 54.0969 44.0109 54.2354C45.3822 54.4646 46.771 54.5731 48.1612 54.5596C49.4294 54.5101 50.6828 54.2696 51.8792 53.8463C53.0038 53.5098 54.0687 52.9992 55.0352 52.3331C55.8887 51.7591 56.6228 51.025 57.1968 50.1715C57.7108 49.3644 57.981 48.4262 57.975 47.4694V33.2459H64.9787Z"/><path d="M37.5908 32.1223C37.5908 32.5114 37.5908 32.9005 37.5908 33.2679C37.5091 35.0903 36.9791 36.8645 36.0478 38.4331C35.1164 40.0016 33.8125 41.3162 32.2515 42.2603C31.7211 42.593 31.1726 42.8961 30.6087 43.1682L29.6144 43.6005L28.9875 43.8383L27.9067 44.1842C27.3663 44.3571 26.8258 44.4868 26.2638 44.6165H25.9396C24.2706 44.9495 22.5804 45.1662 20.8814 45.265H18.7197H16.904C15.1305 45.1592 13.3674 44.9208 11.6296 44.5516C9.38875 44.095 7.21133 43.3692 5.14468 42.39C3.26157 41.5005 1.52641 40.3267 0 38.9098L3.91255 34.3704C5.14143 35.4058 6.53761 36.2245 8.04127 36.7914C8.86269 37.1156 9.70573 37.3966 10.592 37.656C11.4783 37.9154 12.3645 38.0884 13.294 38.2613C14.2235 38.4342 15.153 38.5639 16.0609 38.6504C16.6013 38.6504 17.1201 38.6504 17.6605 38.6504C18.0277 38.672 18.3958 38.672 18.763 38.6504C20.1355 38.6595 21.5051 38.5218 22.8484 38.2397C23.4753 38.11 24.0806 37.9371 24.6426 37.7641C25.2451 37.5563 25.8367 37.3182 26.4151 37.0508C26.9214 36.7994 27.3997 36.4951 27.8418 36.1429C28.2497 35.8253 28.6132 35.4545 28.9226 35.0405C29.4892 34.2823 29.8133 33.3706 29.8521 32.4249C29.8711 31.3237 29.4691 30.2567 28.7281 29.4418C27.8456 28.4871 26.7892 27.7094 25.6153 27.1505L24.6642 26.675C23.5834 26.1994 22.5026 25.7238 21.184 25.2699L17.6821 24.0161L16.1474 23.4757C14.4397 22.8705 12.7536 22.2004 11.1324 21.4654C9.56502 20.7564 8.07921 19.8794 6.70106 18.8498C6.05238 18.4009 5.45761 17.8786 4.92852 17.2935C4.41405 16.7491 3.96432 16.1471 3.58831 15.4993C3.40107 15.1716 3.235 14.8323 3.09113 14.4834C2.66396 13.3734 2.45124 12.1924 2.46426 11.0031C2.45937 10.278 2.52452 9.5541 2.65881 8.8415C2.75838 8.4101 2.88105 7.98437 3.02628 7.56613C3.2593 6.96254 3.56412 6.38918 3.93417 5.85844C4.94878 4.42015 6.30919 3.26046 7.88996 2.4863C8.86369 1.9723 9.88429 1.55248 10.9379 1.23255C11.7466 0.970804 12.5693 0.754306 13.4021 0.584063H13.9209C14.7423 0.3679 15.5854 0.216586 16.4068 0.151737C17.4192 0.045312 18.4367 -0.00520275 19.4547 0.000422813C20.9246 0.000422813 22.4161 0.000422815 23.9509 0.238202C25.4856 0.475982 26.9988 0.670529 28.5119 0.994773C29.9325 1.30748 31.3217 1.74883 32.6623 2.31337L30.8465 8.10654C29.6776 7.6944 28.4777 7.37635 27.2582 7.15542C26.4151 7.00411 25.5721 6.87441 24.7074 6.76633L23.1727 6.5934C21.7604 6.52134 20.4707 6.48532 19.3034 6.48532H17.6821L16.1474 6.63663C15.1037 6.75288 14.075 6.97746 13.0779 7.30674C12.2293 7.57525 11.4531 8.03359 10.8082 8.64695C10.3715 9.03851 10.0754 9.56246 9.96512 10.1385C9.95363 10.3401 9.95363 10.5421 9.96512 10.7437C9.97052 11.2144 10.0776 11.6782 10.2791 12.1036C10.4806 12.5289 10.7717 12.9057 11.1324 13.208C11.3259 13.3988 11.5357 13.5723 11.7593 13.7268C12.2551 14.08 12.7752 14.3978 13.3156 14.6779L14.2668 15.1102C15.326 15.5642 16.4284 16.0397 17.7686 16.4937L18.6981 16.8179L23.7779 18.5472L24.7507 18.9147C26.1774 19.4335 27.5608 20.0387 28.901 20.6656L30.1115 21.2925C31.2437 21.9217 32.3211 22.6447 33.3324 23.4541C33.6566 23.7135 33.9592 23.9945 34.2619 24.2755C34.8456 24.8437 35.374 25.4662 35.8399 26.1345C36.0762 26.4674 36.2928 26.8138 36.4883 27.1721C36.8932 27.8966 37.1917 28.6756 37.3746 29.4851C37.5582 30.3514 37.6309 31.2376 37.5908 32.1223Z"/></svg></a>
+            </div>
+            
+            <label for="main-menu-input" id="main-menu-label"> <svg style="stroke: #fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.32 25.98"><defs><style>.cls-3 { fill: none; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 3px; transition: transform 0.3s ease, opacity 0.3s ease; }</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><line class="cls-3 menu-svg-first-line" x1="1.5" y1="3.5" x2="32.82" y2="3.5"></line><line class="cls-3 menu-svg-second-line" x1="5.6" y1="11.99" x2="28.72" y2="11.99"></line><line class="cls-3 menu-svg-third-line" x1="9.48" y1="20.48" x2="24.67" y2="20.48"></line></g></g></svg></label>   
+        </div>
+        <header id="header">      
+            <div></div> 
+            <div>
+                <a href="./index_eng.html" class="roboto-500">Home</a>
+                    <a href="./portfolio_eng.html" class="roboto-500">Portfolio</a>
+                    <a href="./cv_eng.pdf" target="_blank" class="roboto-500">CV</a>
+                <div>
+                    <input hidden type="checkbox" id="language-change-checkbox">
+                    <label id="change-language" for="language-change-checkbox">
+                        <div class="language-option roboto-400"><img src="../images/ENG_flag.png" alt="">ENG</div>
+                    </label>
+                    <label id="language-menu" for="language-change-checkbox">
+                        <a class="language-option roboto-400" href="./index_bg.html"><img src="../images/BG_flag.png" alt="">BG</a>
+                    </label>
+                </div>     
+            </div>
+        </header>
+       
+        <main id="main-content">
+            <section id="header-section" class="section">
+                <div>
+                    <div>
+                        <h1>
+                            Stanislava
+                            Yordanova
+                        </h1>
+                        <svg width="200" height="16">
+                            <rect x="0" y="0" rx="3" ry="3" width="130" height="3.5"
+                            style="fill:white; stroke:black; stroke-width:0.5;" />
+                            <rect x="70" y="12" rx="3" ry="3" width="130" height="3.5"
+                            style="fill:white; stroke:black; stroke-width:0.5;" />
+                        </svg>
+                        <ul class="roboto-400">
+                            <li>Designer</li>
+                            <li>Illustrator</li>
+                            <li>3D artist</li>
+                        </ul>
+                    </div>
+                    <div id="moon"></div>
+                    <img src="./images/wolf.svg" alt="wolf">
+                </div>
+
+                <img id="header-clouds" src="./images/clouds.svg" alt="clouds">
+            </section>
+
+            <section id="category-section" class="section">
+                <div>
+                    <h1 class="advent-pro-700">Project categories</h1>
+                    <div id="gallery-wrapper">
+                        <button id="previous" class="slideshow-button" data-default-opacity="1" data-hover-opacity="0.8"></button>
+                        <div id="gallery"></div>
+                        <button id="next" class="slideshow-button" data-default-opacity="1" data-hover-opacity="0.8"></button>
+                    </div> 
+                </div>
+            </section>
+
+            <section id="about-section" class="section">
+                <div>
+                    <svg>
+                        <rect x="0" y="0" rx="5" ry="5" width="100%" height="5"
+                        style="fill:rgb(255, 255, 255); stroke-width:0;" />/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="advent-pro-700">About me</h1>
+                    <div>
+                        <img src="./images/Portret.jpg" alt="my picture">
+                        <section class="roboto-400">
+                            <p>My name is Stanislava Yordanova. I am a student at Ruse University “Angel Kanchev,” specializing in Design.</p>
+                            <p>In my free time, I work on personal projects related to digital art.</p>
+                            <p>I have a strong interest in character concept design, illustrations and 3D modeling.</p>
+                        </section>
+                    </div>
+                </div>
+                <div>
+                    <svg>
+                        <rect x="0" y="0" rx="5" ry="5" width="100%" height="5"
+                        style="fill:rgb(255, 255, 255); stroke-width:0;" />/>
+                    </svg>
+                </div>
+            </section>
+            <section id="contacts-section" class="section">
+                <div id="contacts-clouds">
+                    <img src="./images/down-facing-clouds.svg" alt="clouds">
+                </div>
+                <div>
+                    <h1 class="advent-pro-700">Contact me</h1>
+                    <div>
+                        <svg>
+                            <rect x="0" y="0" rx="3" ry="3" width="100%" height="3"
+                            style="fill:rgb(108, 108, 108); stroke-width:0;" />/>
+                        </svg>
+                    </div>
+                    
+                    <div>
+                        <div class="roboto-400">
+                            <img class="copy-text icon" data-copy="088 695 2296" data-default-src="../images/phone.png" data-hover-src="../images/phone_on.png" id="phone-pictogram" src="../images/phone.png" alt="phone icon">
+                            <div>Copy Phone Number</div>
+                            <span>088 695 2296</span>
+                        </div>
+                        <div class="roboto-400">
+                            <img class="copy-text icon" data-copy="stanislavayordanova80@gmail.com" data-default-src="../images/gmail.png" data-hover-src="../images/gmail_on.png" id="gmail-pictogram" src="../images/gmail.png" alt="gmail icon">
+                            <div>Copy Email Address</div>
+                            <span>stanislavayordanova80@gmail.com</span>
+                        </div>
+                        <div class="roboto-400">
+                            <a href="https://www.linkedin.com/in/stanislava-yordanova-8855442b8/"><img data-default-src="../images/linkedin.png" data-hover-src="../images/linkedin_on.png" id="footer-linkedin-logo" class="icon" src="../images/linkedin.png" alt="linkedin icon"></a>
+                            <span>Stanislava Yordanova</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <svg>
+                            <rect x="0" y="0" rx="3" ry="3" width="100%" height="3"
+                            style="fill:rgb(108, 108, 108); stroke-width:0;" />/>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div>
+                <div>
+                    <a href="./index_eng.html" class="roboto-400">Home</a>
+                    <a href="./portfolio_eng.html" class="roboto-400">Portfolio</a>
+                    <a href="./cv_eng.pdf" target="_blank" class="roboto-400">CV</a>
+                </div>
+            </div>
+            <div id="logo-footer">
+                <a href="./index_eng.html"><svg class="logo" alt="Logo" style="fill: #000000" xmlns="http://www.w3.org/2000/svg" width="65" height="75" viewBox="0 0 65 75"><path d="M64.9787 33.2459V63.5087C65.0694 64.9323 64.8709 66.3594 64.3954 67.7042C63.9199 69.049 63.1771 70.2837 62.2118 71.3339C59.6519 73.4698 56.4238 74.6402 53.0897 74.6411L51.0146 69.1722C51.952 69.1059 52.8796 68.9392 53.7815 68.675C54.5673 68.4529 55.3018 68.0783 55.9431 67.5726C56.5801 67.0849 57.0854 66.4459 57.413 65.7136C57.8052 64.8304 57.99 63.8692 57.9534 62.9035V57.802C56.8738 58.4784 55.7207 59.0296 54.5164 59.4449C53.3106 59.9117 52.0666 60.2733 50.7984 60.5257C49.4525 60.7183 48.0942 60.8122 46.7345 60.8067C45.3661 60.8123 43.9995 60.7038 42.6491 60.4825C41.0493 60.2462 39.487 59.803 38.0016 59.1639C37.2528 58.8377 36.5302 58.4547 35.8399 58.0182C34.3848 57.1216 33.1213 55.9462 32.1219 54.5596C31.429 53.6028 30.9028 52.5358 30.5655 51.4036C30.1675 50.1157 29.9706 48.7741 29.9819 47.4262V45.2646C30.326 45.2011 30.6654 45.1145 30.9979 45.0052C32.1224 44.6687 33.1873 44.1581 34.1539 43.492C35.0074 42.918 35.7415 42.1839 36.3155 41.3304C36.645 40.8166 36.8725 40.2442 36.9856 39.6443V46.6264C36.9427 48.1537 37.3566 49.6591 38.1745 50.9497C39.0797 52.2194 40.3674 53.1663 41.8493 53.6517C42.5537 53.9017 43.2764 54.0969 44.0109 54.2354C45.3822 54.4646 46.771 54.5731 48.1612 54.5596C49.4294 54.5101 50.6828 54.2696 51.8792 53.8463C53.0038 53.5098 54.0687 52.9992 55.0352 52.3331C55.8887 51.7591 56.6228 51.025 57.1968 50.1715C57.7108 49.3644 57.981 48.4262 57.975 47.4694V33.2459H64.9787Z"/><path d="M37.5908 32.1223C37.5908 32.5114 37.5908 32.9005 37.5908 33.2679C37.5091 35.0903 36.9791 36.8645 36.0478 38.4331C35.1164 40.0016 33.8125 41.3162 32.2515 42.2603C31.7211 42.593 31.1726 42.8961 30.6087 43.1682L29.6144 43.6005L28.9875 43.8383L27.9067 44.1842C27.3663 44.3571 26.8258 44.4868 26.2638 44.6165H25.9396C24.2706 44.9495 22.5804 45.1662 20.8814 45.265H18.7197H16.904C15.1305 45.1592 13.3674 44.9208 11.6296 44.5516C9.38875 44.095 7.21133 43.3692 5.14468 42.39C3.26157 41.5005 1.52641 40.3267 0 38.9098L3.91255 34.3704C5.14143 35.4058 6.53761 36.2245 8.04127 36.7914C8.86269 37.1156 9.70573 37.3966 10.592 37.656C11.4783 37.9154 12.3645 38.0884 13.294 38.2613C14.2235 38.4342 15.153 38.5639 16.0609 38.6504C16.6013 38.6504 17.1201 38.6504 17.6605 38.6504C18.0277 38.672 18.3958 38.672 18.763 38.6504C20.1355 38.6595 21.5051 38.5218 22.8484 38.2397C23.4753 38.11 24.0806 37.9371 24.6426 37.7641C25.2451 37.5563 25.8367 37.3182 26.4151 37.0508C26.9214 36.7994 27.3997 36.4951 27.8418 36.1429C28.2497 35.8253 28.6132 35.4545 28.9226 35.0405C29.4892 34.2823 29.8133 33.3706 29.8521 32.4249C29.8711 31.3237 29.4691 30.2567 28.7281 29.4418C27.8456 28.4871 26.7892 27.7094 25.6153 27.1505L24.6642 26.675C23.5834 26.1994 22.5026 25.7238 21.184 25.2699L17.6821 24.0161L16.1474 23.4757C14.4397 22.8705 12.7536 22.2004 11.1324 21.4654C9.56502 20.7564 8.07921 19.8794 6.70106 18.8498C6.05238 18.4009 5.45761 17.8786 4.92852 17.2935C4.41405 16.7491 3.96432 16.1471 3.58831 15.4993C3.40107 15.1716 3.235 14.8323 3.09113 14.4834C2.66396 13.3734 2.45124 12.1924 2.46426 11.0031C2.45937 10.278 2.52452 9.5541 2.65881 8.8415C2.75838 8.4101 2.88105 7.98437 3.02628 7.56613C3.2593 6.96254 3.56412 6.38918 3.93417 5.85844C4.94878 4.42015 6.30919 3.26046 7.88996 2.4863C8.86369 1.9723 9.88429 1.55248 10.9379 1.23255C11.7466 0.970804 12.5693 0.754306 13.4021 0.584063H13.9209C14.7423 0.3679 15.5854 0.216586 16.4068 0.151737C17.4192 0.045312 18.4367 -0.00520275 19.4547 0.000422813C20.9246 0.000422813 22.4161 0.000422815 23.9509 0.238202C25.4856 0.475982 26.9988 0.670529 28.5119 0.994773C29.9325 1.30748 31.3217 1.74883 32.6623 2.31337L30.8465 8.10654C29.6776 7.6944 28.4777 7.37635 27.2582 7.15542C26.4151 7.00411 25.5721 6.87441 24.7074 6.76633L23.1727 6.5934C21.7604 6.52134 20.4707 6.48532 19.3034 6.48532H17.6821L16.1474 6.63663C15.1037 6.75288 14.075 6.97746 13.0779 7.30674C12.2293 7.57525 11.4531 8.03359 10.8082 8.64695C10.3715 9.03851 10.0754 9.56246 9.96512 10.1385C9.95363 10.3401 9.95363 10.5421 9.96512 10.7437C9.97052 11.2144 10.0776 11.6782 10.2791 12.1036C10.4806 12.5289 10.7717 12.9057 11.1324 13.208C11.3259 13.3988 11.5357 13.5723 11.7593 13.7268C12.2551 14.08 12.7752 14.3978 13.3156 14.6779L14.2668 15.1102C15.326 15.5642 16.4284 16.0397 17.7686 16.4937L18.6981 16.8179L23.7779 18.5472L24.7507 18.9147C26.1774 19.4335 27.5608 20.0387 28.901 20.6656L30.1115 21.2925C31.2437 21.9217 32.3211 22.6447 33.3324 23.4541C33.6566 23.7135 33.9592 23.9945 34.2619 24.2755C34.8456 24.8437 35.374 25.4662 35.8399 26.1345C36.0762 26.4674 36.2928 26.8138 36.4883 27.1721C36.8932 27.8966 37.1917 28.6756 37.3746 29.4851C37.5582 30.3514 37.6309 31.2376 37.5908 32.1223Z"/></svg></a>
+            </div>
+            <div id="footer-social-media" class="roboto-400">
+                Social meida: 
+                <a href="https://www.facebook.com/profile.php?id=100006814093418&locale=bg_BG"><img data-default-src="../images/facebook.png" data-hover-src="../images/facebook_on.png" id="footer-facebook-logo" class="icon" src="../images/facebook.png" alt="facebook icon"></a>
+                <a href="https://www.linkedin.com/in/stanislava-yordanova-8855442b8/"><img data-default-src="../images/linkedin.png" data-hover-src="../images/linkedin_on.png" id="footer-linkedin-logo" class="icon" src="../images/linkedin.png" alt="linkedin icon"></a>
+                <div>
+                    <img class="copy-text icon" data-copy="stasi799" data-default-src="../images/discord.png" data-hover-src="../images/discord_on.png" id="footer-discord-logo" src="../images/discord.png" alt="discord icon">
+                    <div>Copy User Name</div>
+                </div>
+                <a href="https://stasi788.artstation.com"><img data-default-src="../images/artstation.png" data-hover-src="../images/artstation_on.png" id="footer-artstation-logo" class="icon" src="../images/artstation.png" alt="artstation icon"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

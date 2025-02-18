@@ -1,0 +1,19 @@
+<svg style="stroke: #B6EEF4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-3 { 
+                    fill: none; 
+                    stroke-linecap: round; 
+                    stroke-miterlimit: 10; 
+                    stroke-width: 5px; 
+                    transition: transform 0.3s ease, opacity 0.3s ease; 
+                }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <line class="cls-3 menu-svg-first-line" x1="5" y1="5" x2="35" y2="35"></line>
+            <line class="cls-3 menu-svg-third-line" x1="5" y1="35" x2="35" y2="5"></line>
+        </g>
+    </g>
+</svg>
